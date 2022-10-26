@@ -1,6 +1,6 @@
 <?php 
 
-define('BASEURL', 'http://localhost/myoop/public');
+define('BASEURL', 'http://localhost/mvc/public');
 
 //Database
 define('DB_HOST', 'localhost');
