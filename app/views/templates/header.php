@@ -7,4 +7,3 @@
 	<title><?= $data['judul']; ?></title>
 </head>
 <body>
-	<h1 class="font-base text-lg">Hello World!</h1>
