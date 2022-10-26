@@ -1,5 +1,5 @@
 <!-- Hero Section Start -->
-<section id="home" class="pt-36 h-screen bg-dark">
+<section id="home" class="pt-36 h-screen">
     <div class="container">
         <div class="flex flex-wrap">
             <div class="w-full self-center px-4">

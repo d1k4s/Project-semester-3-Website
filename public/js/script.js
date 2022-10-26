@@ -1,35 +1,20 @@
-$(function() {
-	$('#tombolTambahData').on('click', function() {
-		$('#formModalLabel').html('Tambah Data Mahasiswa');
-		$('.modal-footer button[type=submit').html('Tambah Data');
-		$('.modal-body form').attr('action', 'http://localhost/myoop/public/mahasiswa/tambah');
+// Navbar Fixed
+window.onscroll = function() {
+	const header	= document.querySelector('header');
+	const fixedNav	= header.offsetTop;
 
-		$('#nama').val('');
-		$('#nim').val('');
-		$('#email').val('');
-		$('#jurusan').val('JURUSAN');
-		$('#id').val('');
-	});
+	if(window.pageYOffset > fixedNav) {
+		header.classList.add('navbar-fixed');
+	} else {
+		header.classList.remove('navbar-fixed');
+	}
+}
 
-	$('.tampilModalUbah').on('click', function() {
-		$('#formModalLabel').html('Ubah Data Mahasiswa');
-		$('.modal-footer button[type=submit').html('Ubah Data');
-		$('.modal-body form').attr('action', 'http://localhost/myoop/public/mahasiswa/ubah');
+// Hamburger
+const hamburger = document.querySelector('#hamburger');
+const navMenu	= document.querySelector('#nav-menu');
 
-		const id = $(this).data('id');
-
-		$.ajax({
-			url: 'http://localhost/myoop/public/mahasiswa/getUbah',
-			data: {id : id},
-			method: 'post',
-			dataType: 'json',
-			success: function(data) {
-				$('#nama').val(data.nama);
-				$('#nim').val(data.nim);
-				$('#email').val(data.email);
-				$('#jurusan').val(data.jurusan);
-				$('#id').val(data.id);
-			}
-		})
-	});
-});
+hamburger.addEventListener('click', function() {
+	hamburger.classList.toggle('hamburger-active');
+	navMenu.classList.toggle('hidden');
+})
