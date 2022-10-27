@@ -27,7 +27,7 @@
 								<a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
 							</li>
 							<li class="group">
-								<a href="#porfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+								<a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
 							</li>
 							<li class="group">
 								<a href="#layanan" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Layanan</a>

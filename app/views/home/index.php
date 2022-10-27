@@ -11,6 +11,7 @@
             </div>
         </div>
     </div>
+    <img src="<?= BASEURL; ?>/img/foto.jpg" alt="background" class="-z-10 absolute top-0 left-0 h-screen w-screen">
 </section>
 <!-- Hero Section End -->
 

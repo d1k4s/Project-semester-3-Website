@@ -14,6 +14,9 @@ module.exports = {
       },
       screens: {
         "2xl": "1320px"
+      },
+      backgroundImage: {
+        'hero-image': "url('/public/img/foto.jpg')"
       }
     },
   },
