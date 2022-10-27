@@ -30,10 +30,10 @@
 								<a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
 							</li>
 							<li class="group">
-								<a href="#layanan" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Layanan</a>
+								<a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
 							</li>
 							<li class="group">
-								<a href="#hubungi" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Hubungi</a>
+								<a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
 							</li>
 						</ul>
 					</nav>
