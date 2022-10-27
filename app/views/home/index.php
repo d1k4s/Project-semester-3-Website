@@ -64,9 +64,9 @@
     <div class="container">
         <div class="w-full px-4">
             <div class="max-w-xl mx-auto text-center mb-16">
-                <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+                <h4 class="font-semibold text-lg text-primary mb-2 sm:4xl lg:5xl">Portfolio</h4>
                 <h2 class="font-bold text-dark text-3xl mb-4">Project Terbaru</h2>
-                <p class="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, aspernatur omnis ducimus quaerat a molestiae eveniet ipsum nemo eligendi laborum.</p>
+                <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, aspernatur omnis ducimus quaerat a molestiae eveniet ipsum nemo eligendi laborum.</p>
             </div>
         </div>
         <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
@@ -102,3 +102,34 @@
     </div>
 </section>
 <!-- Portfolio Section End -->
+
+<!-- Clients Section start -->
+<section id="clients" class="pt-36 pb-32 bg-slate-700">
+    <div class="container">
+        <div class="w-full px-4">
+            <div class="mx-auto text-center mb-16">
+                <h4 class="font-semibold text-lg text-primary mb-2">Clients</h4>
+                <h2 class="font-bold text-white text-3xl mb-4 sm:4xl lg:5xl">Yang Pernah Bekerja Sama</h2>
+                <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic accusamus possimus cumque.</p>
+            </div>
+        </div>
+
+        <div class="w-full px-4">
+            <div class="flex flex-wrap items-center justify-center">
+                <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                    <img src="<?= BASEURL; ?>/img/clients/logo.png" alt="">
+                </a>
+                <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                    <img src="<?= BASEURL; ?>/img/clients/logo.png" alt="">
+                </a>
+                <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                    <img src="<?= BASEURL; ?>/img/clients/logo.png" alt="">
+                </a>
+                <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                    <img src="<?= BASEURL; ?>/img/clients/logo.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Clients Section End -->
