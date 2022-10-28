@@ -5,10 +5,8 @@ window.onscroll = function() {
 
 	if(window.pageYOffset > fixedNav) {
 		header.classList.add('navbar-fixed');
-		header.classList.add('backdrop-blur');
 	} else {
 		header.classList.remove('navbar-fixed');
-		header.classList.add('backdrop-blur');
 
 	}
 }

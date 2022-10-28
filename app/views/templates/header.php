@@ -27,13 +27,19 @@
 								<a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
 							</li>
 							<li class="group">
-								<a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
+								<a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Kami</a>
 							</li>
 							<li class="group">
 								<a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
 							</li>
 							<li class="group">
 								<a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+							</li>
+							<li class="group">
+								<a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
+							</li>
+							<li class="group">
+								<a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Kontak</a>
 							</li>
 						</ul>
 					</nav>
